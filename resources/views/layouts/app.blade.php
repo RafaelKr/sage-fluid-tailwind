@@ -17,6 +17,10 @@
 
       @include('sections.header')
 
+      <div class="~p-6/10">
+        Test
+      </div>
+
       <main id="main" class="main">
         @yield('content')
       </main>
